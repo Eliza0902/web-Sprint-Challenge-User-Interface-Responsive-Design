@@ -3,138 +3,365 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  /* border: 0; */
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
 }
 body {
-	line-height: 1;
+  line-height: 1;
 }
-ol, ul {
-	list-style: none;
+ol,
+ul {
+  list-style: none;
 }
-blockquote, q {
-	quotes: none;
+blockquote,
+q {
+  quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
 }
 table {
-	border-collapse: collapse;
-	border-spacing: 0;
+  border-collapse: collapse;
+  border-spacing: 0;
 }
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html{
-    font-size:62.5%;
+html {
+  font-size: 62.5%;
 }
 body {
-    font-family: 'Roboto', sans-serif;
-    line-height:1.5;
-    font-size:1.6rem;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.5;
+  font-size: 1.6rem;
 }
 
-h1, h2, h3, h4, h5 {
-    font-size: 2.5rem;
-    margin-bottom: 2%;
-    font-family: 'Rubik', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-size: 2.5rem;
+  margin-bottom: 2%;
+  font-family: "Rubik", sans-serif;
 }
-section, footer{
-    padding:4% 0;
+section,
+footer {
+  padding: 4% 0;
 }
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+}
+/*start code*/
+
+* {
+  box-sizing: border-box;
+  
+  max-width: 100%;
+  font-family: "Roboto Mono", monospace;
 }
 
-/*Top Section Styles*/
+html {
+  font-size: 62.5%;
+}
 
+body {
+  line-height: 1.5;
+  font-size: 1.8rem;
+  color: black;
+}
+/*Header*/
+
+header {
+  display: flex;
+  width: 100%;
+}
+.bloomtech img {
+  width: 30%;
+  margin-left: 2%;
+}
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+}
+
+a {
+  text-decoration: none;
+  text-align: center;
+}
+links {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+button {
+  width: 100%;
+  text-align: center;
+  justify-content: space-evenly;
+  font-size: 100%;
+}
+.topNav button{
+    background-color: white;
+    border: 0;
+}
+.topNav a {
+  color: black;
+  justify-items: center;
+  width: 50%;
+  background-color: white;
+}
+/*Top Section Styles*/
+.roadPic {
+  height: 100%;
+  padding: 1% 0;
+}
+.road {
+  width: 100%;
+  height: 100%;
+}
 .top-content {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 4%;
-    border-bottom: 2px solid #ff4b00;
-    text-align: justify;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 4%;
+  border-bottom: 6px solid #ff4b00;
+  text-align: justify;
 }
 
 .top-content .text-container {
-    width: 35%;
-    padding: 0 1%;
-    padding-bottom: 4%;  
+  width: 50%;
+  padding: 0 1%;
+  padding-bottom: 4%;
+  text-align: center;
 }
 
 /*Middle Section Styles*/
 .middle-content {
-    margin-bottom: 4%;
+  margin-bottom: 4%;
+  padding: 4%;
+  border-bottom: 6px solid #ff4b00;
+}
+
+.boxes div {
+  width: 18%;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  
 }
 
 .middle-content h2 {
-    margin-bottom: 0;
+  margin-bottom: 3%;
 }
 
 .middle-content .boxes {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-direction: row;
+  height: 100%;
+  margin-top: 3%;
+  
 }
 
 .middle-content .boxes .box {
-    background: black;
-    margin: 4% 0;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  background: black;
+  background-size: cover;
+  flex: 1 0 1px;
+  width: 100%;
+  padding: 30% 3%;
+  margin: 10% 0;
+
 }
 
+
+.boxes .one .box{
+    background-color: teal;
+}
+
+
+.boxes .two .box{
+    background-color: gold;
+}
+
+.boxes .three .box{
+    background-color: cadetblue;
+}
+
+.boxes .four .box{
+    background-color: coral;
+}
+
+.boxes .five .box{
+    background-color: crimson;
+}
+
+.boxes .six .box{
+    background-color: forestgreen;
+}
+
+.boxes .seven .box{
+    background-color: darkorchid;
+}
+
+.boxes .eight .box{
+    background-color: hotpink;
+}
+
+.boxes .nine .box{
+    background-color: indigo;
+}
+
+.boxes .ten .box{
+    background-color: dodgerblue;
+}
 /*Bottom Section Styles*/
 .bottom-content {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
 }
 
 .bottom-content .text-container {
-    width:25%;
+  width: 25%;
+}
+
+h2{
+    margin-bottom: 4%;
 }
 
 .bottom-content .text-container:last-child {
-    padding-right: 0;
+  padding-right: 0;
+}
+
+p{
+    margin: 5% 0;
+    text-align: left;
 }
 
 /*Footer Styles*/
 footer {
-    width: 100%;
-    background-color: #ff4b00;
+  width: 100%;
+  background-color: #ff4b00;
+  align-items: center;
+  justify-content: center;
+}
+footer nav{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%
 }
 
+footer nav a{
+    color:white;
+}
 /*About Page Styles*/
-
 
 /*Responsive Styles*/
