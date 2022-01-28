@@ -162,7 +162,7 @@ footer {
 
 * {
   box-sizing: border-box;
-  
+
   max-width: 100%;
   font-family: "Roboto Mono", monospace;
 }
@@ -207,9 +207,9 @@ button {
   justify-content: space-evenly;
   font-size: 100%;
 }
-.topNav button{
-    background-color: white;
-    border: 0;
+.topNav button {
+  background-color: white;
+  border: 0;
 }
 .topNav a {
   color: black;
@@ -254,7 +254,6 @@ button {
   justify-content: center;
   text-align: center;
   color: white;
-  
 }
 
 .middle-content h2 {
@@ -268,7 +267,6 @@ button {
   flex-direction: row;
   height: 100%;
   margin-top: 3%;
-  
 }
 
 .middle-content .boxes .box {
@@ -277,50 +275,47 @@ button {
   flex: 1 0 1px;
   width: 100%;
   padding: 30% 3%;
-  margin: 10% 0;
-
+  margin: 12% 0;
 }
 
-
-.boxes .one .box{
-    background-color: teal;
+.boxes .one .box {
+  background-color: teal;
 }
 
-
-.boxes .two .box{
-    background-color: gold;
+.boxes .two .box {
+  background-color: gold;
 }
 
-.boxes .three .box{
-    background-color: cadetblue;
+.boxes .three .box {
+  background-color: cadetblue;
 }
 
-.boxes .four .box{
-    background-color: coral;
+.boxes .four .box {
+  background-color: coral;
 }
 
-.boxes .five .box{
-    background-color: crimson;
+.boxes .five .box {
+  background-color: crimson;
 }
 
-.boxes .six .box{
-    background-color: forestgreen;
+.boxes .six .box {
+  background-color: forestgreen;
 }
 
-.boxes .seven .box{
-    background-color: darkorchid;
+.boxes .seven .box {
+  background-color: darkorchid;
 }
 
-.boxes .eight .box{
-    background-color: hotpink;
+.boxes .eight .box {
+  background-color: hotpink;
 }
 
-.boxes .nine .box{
-    background-color: indigo;
+.boxes .nine .box {
+  background-color: indigo;
 }
 
-.boxes .ten .box{
-    background-color: dodgerblue;
+.boxes .ten .box {
+  background-color: dodgerblue;
 }
 /*Bottom Section Styles*/
 .bottom-content {
@@ -333,17 +328,17 @@ button {
   width: 25%;
 }
 
-h2{
-    margin-bottom: 4%;
+h2 {
+  margin-bottom: 4%;
 }
 
 .bottom-content .text-container:last-child {
   padding-right: 0;
 }
 
-p{
-    margin: 5% 0;
-    text-align: left;
+p {
+  margin: 5% 0;
+  text-align: left;
 }
 
 /*Footer Styles*/
@@ -353,15 +348,55 @@ footer {
   align-items: center;
   justify-content: center;
 }
-footer nav{
-    display: flex;
-    justify-content: space-evenly;
-    width: 100%
+footer nav {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
 }
 
-footer nav a{
-    color:white;
+footer nav a {
+  color: white;
 }
 /*About Page Styles*/
 
 /*Responsive Styles*/
+@media (max-width: 500px){
+    header{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .bloomtech img{
+        width:80%;
+        margin-top: 2%;
+        }
+    .top-content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+    .top-content .text-container{
+        width:80%;
+    }
+    
+    .middle-content{
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .boxes div{
+        width:40%;
+    }
+
+    .bottom-content{
+        flex-wrap: wrap;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .bottom-content .text-container{
+        width: 75%;
+        text-align: center;
+    }
+}
