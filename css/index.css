@@ -443,4 +443,21 @@ width: 100%;
     footer nav a{
       margin: 2%;
     }
+
+    .middle{
+      justify-content: center;
+      text-align: center;
+    }
+    .middle .aboutMiddle{
+      display: flex;
+      flex-direction: column;
+      width: 75%;
+    }
+.middle .aboutMiddle h2{
+  text-align: center;
+  padding: 3%;
+}
+    .lets-work-together h2{
+      text-align: center;
+    }
 }
