@@ -361,12 +361,17 @@ footer nav a {
 .container-about-page{
   width: 100%;
 }
-
+.aboutTop{
+  padding:1%;
+  border-bottom: 5px solid #ff4b00;
+}
 .bannerPic .pic{
   width: 100%;
 }
 
-
+.bannerPic{
+  padding: 1% 0;
+}
 .middle{
   display: flex;
   flex-wrap: wrap;
@@ -375,17 +380,20 @@ footer nav a {
   display: flex;
   flex-wrap:wrap;
   justify-content: space-evenly;
-  width: 45%;
+  width: 48%;
   flex-direction: row;
   border-bottom: 2px solid#ff4b00;
-  margin: 2%;
+  margin: 1%;
   text-align: left;
-  
+  margin-top: 4%;
 }
 .middle .aboutMiddle img{
   width: 100%;
+  
 }
-
+.middle .aboutMiddle p{
+  margin-bottom: 8%;
+}
 .aboutMiddle {
   width: 45%;
 }
@@ -394,7 +402,12 @@ footer nav a {
 text-align: left;
 padding: 1% 0;
 width: 100%;
+margin: 3% 0;
 }
+.lets-work-together{
+  margin-left: 1%;
+}
+
 /*Responsive Styles*/
 @media (max-width: 500px){
     header{
